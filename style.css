@@ -103,3 +103,33 @@ input:focus {
 .signup-btn:focus {
   border: 2px solid black;
 }
+
+@media screen and (max-width: 1150px) {
+  .form-container {
+    width: 100vw;
+  }
+  .signup-btn {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .form-wrapper {
+    height: 600px;
+    width: 400px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 17px;
+  }
+
+  label {
+    font-size: 15px;
+  }
+
+  .signup-btn {
+    width: 60%;
+    font-size: 20px;
+  }
+}
