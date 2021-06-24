@@ -52,8 +52,6 @@ h1 {
 
 hr {
   border: 0;
-  clear: both;
-  display: block;
   width: 96%;
   background-color: black;
   height: 1px;
@@ -71,22 +69,37 @@ label::after {
 }
 
 input {
-  border: 1px solid #503302;
+  border: 1px solid black;
   background-color: #e3c593;
   height: 30px;
   border-radius: 5px;
   width: 90%;
+  font-size: 15px;
+  outline: none;
+  text-align: center;
+}
+
+input:focus {
+  border: 1px solid #cf880c;
 }
 
 .signup-btn {
   height: 50px;
   width: 80%;
   border-radius: 5px;
-  border: 1px solid #976919;
+  border: 1px solid black;
   background-color: #e6a638;
   font-size: 25px;
   font-weight: lighter;
   color: rgb(49, 41, 41);
   margin: 30px 0;
   cursor: pointer;
+}
+
+.signup-btn:hover {
+  background-color: #e69d21;
+}
+
+.signup-btn:focus {
+  border: 2px solid black;
 }
