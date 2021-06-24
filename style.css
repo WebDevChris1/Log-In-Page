@@ -37,15 +37,28 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   height: 600px;
   width: 500px;
   background-color: rgba(234, 214, 169, 0.5);
-  padding: 50px;
+  padding: 40px 40px 0 40px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  /* border: 1px solid black; */
 }
 
+h1 {
+  font-size: 20px;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: black;
+  height: 1px;
+  margin: 10px 0;
+}
 label {
   text-align: center;
   font-weight: bold;
@@ -53,13 +66,27 @@ label {
 
 label::after {
   content: "*";
-  color: rgb(205, 133, 133);
-  font-size: 20px;
+  color: black;
+  font-size: 15px;
 }
 
 input {
-  border: 1px solid black;
-  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid #503302;
+  background-color: #e3c593;
   height: 30px;
   border-radius: 5px;
+  width: 90%;
+}
+
+.signup-btn {
+  height: 50px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #976919;
+  background-color: #e6a638;
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(49, 41, 41);
+  margin: 30px 0;
+  cursor: pointer;
 }
