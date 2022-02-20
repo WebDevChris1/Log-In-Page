@@ -18,10 +18,8 @@ html {
 body {
   height: 100vh;
   width: 100vw;
-  background-image: url("./background.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
   position: relative;
   font-family: "Roboto", sans-serif;
 }
